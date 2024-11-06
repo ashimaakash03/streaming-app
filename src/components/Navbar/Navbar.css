@@ -1,0 +1,53 @@
+.navbar {
+  width: 100%;
+  padding: 10px 5%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  font-size: large;
+  z-index: 1;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.navbar-left img {
+  width: 100px;
+}
+.navbar-left ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+.navbar-left ul li {
+  cursor: pointer;
+}
+.navbar-left ul li:hover {
+  color: gray;
+  scale: 110%;
+}
+
+.navbar-right,
+p {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-right .icons,
+p {
+  cursor: pointer;
+}
+.navbar-right .icons,
+p:hover {
+  scale: 1.1;
+  color: gray;
+}
+.navbar-profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
